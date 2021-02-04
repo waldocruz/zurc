@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ZurcDeveloper</title>
+    <link rel="stylesheet" href="estilos.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+</head>
+<body id="i"  >
+  
+    <div class="icono-menu">
+      <img src="imagen/menu.png" id="icono-menu">
+    </div>
+    <div class="cont-menu active" id="menu">
+      <ul>
+        <li type="button" onclick="mostrar('inicio')" class="add-to-cart">
+          <img src="imagen/inicio.png" alt="">
+        </li>
+        <li type="button" onclick="mostrar('proyecto')" class="add-to-cart">
+          <img src="imagen/proyecto.png" alt="">
+        </li>
+        <li type="button" onclick="mostrar('conocimiento')" class="add-to-cart">
+          <img src="imagen/conocimiento.png" alt="">
+        </li>
+      </ul>
+    </div>
+    <div id="inicio">
+      <h1 >Zurc Developer</h1>
+      <h2 >Que tal!</h2>
+      <h3 >Soy Waldo Cruz Zurita, desarrollador de aplicaciones Android y entusiasta de la tecnologia.</h3>
+    </div>
+      <div style="text-align: center;" id="proyecto">
+        <div class="card" style="width: 15%;">
+          <img src="imagen/Screenshot_20210204-180546.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Juego de Letras</h5>
+            <p class="card-text">Es un juego de ordenar nombres de animales.</p>
+            <a href="https://play.google.com/store/apps/details?id=app.version.JuegoDeLetras" class="btn btn-primary">Play Store</a>
+          </div>
+        </div>
+      </div>
+      <div style="text-align: center;" id="conocimiento">
+        
+        <div class="progress">
+          <h6>HTML</h6>
+          <div class="progress-bar progress-bar-striped" role="progressbar" style="width: 8%" aria-valuenow="8" aria-valuemin="0" aria-valuemax="100">8%</div>
+        </div>
+        <div class="progress">
+          <h6>CSS</h6>
+          <div class="progress-bar progress-bar-striped bg-success" role="progressbar" style="width: 7%" aria-valuenow="7" aria-valuemin="0" aria-valuemax="100">7%</div>
+        </div>
+        <div class="progress">
+          <h6>JAVASCRIPT</h6>
+          <div class="progress-bar progress-bar-striped bg-info" role="progressbar" style="width: 5%" aria-valuenow="5" aria-valuemin="0" aria-valuemax="100">5%</div>
+        </div>
+        <div class="progress">
+          <h6>JAVA</h6>
+          <div class="progress-bar progress-bar-striped bg-warning" role="progressbar" style="width: 55%" aria-valuenow="55" aria-valuemin="0" aria-valuemax="100">55%</div>
+        </div>
+      </div>
+    <script src="app.js"></script>
+</body>
+</html>
